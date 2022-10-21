@@ -9,10 +9,10 @@ void main() {
   if (kIsWeb) {
     // initialiaze the facebook javascript SDK
     FacebookAuth.i.webInitialize(
-      appId: "1483671772099707",
+      appId: "1483671772099707", //<-- YOUR APP_ID
       cookie: true,
       xfbml: true,
-      version: "v13.0",
+      version: "v12.0",
     );
   }
   runApp(const MyApp());
