@@ -37,8 +37,8 @@ class _MyAppState extends State<MyApp> {
   bool _checking = true;
 
   @override
-  void get initState {
-    super.initState;
+  void initState() {
+    super.initState();
     _checkIfIsLogged();
   }
 
